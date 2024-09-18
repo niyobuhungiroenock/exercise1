@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bdy">
+    <button id="btn" onclick="myfunction()">click me</button>
+    <script>
+        function myfunction() {
+            const back=document.getElementById("bdy");
+            const buto=document.getElementById("btn");
+            back.style.background="skyblue";
+            buto.style.width="200px";
+            buto.style.height="70px";
+            buto.style.backgroundColor="yellow";
+        }
+    </script>
+</body>
+</html>
